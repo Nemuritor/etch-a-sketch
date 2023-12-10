@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  width: 960px; /* Set the total width */
+  height: 960px; /* Set the total height */
+  border: 1px solid black; /* Optional, for visual distinction */
+  overflow: hidden; /* In case of fractional pixels in grid items */
+}
+
+.grid-item {
+  border: 1px solid #ddd; /* Optional, for visual grid lines */
+}
